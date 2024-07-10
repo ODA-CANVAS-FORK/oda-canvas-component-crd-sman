@@ -209,7 +209,7 @@ canvas-vault:
 secretsmanagement-operator:
   image: ocfork/secretsmanagement-operator
   version: 0.1.0
-  prereleaseSuffix:
+  prereleaseSuffix: odaaxxx
   #imagePullPolicy: IfNotPresent
   imagePullPolicy: Always
   
