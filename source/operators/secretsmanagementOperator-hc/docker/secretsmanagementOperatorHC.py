@@ -35,7 +35,7 @@ kopf_logger = logging.getLogger()
 kopf_logger.setLevel(logging.WARNING)
 logger = logging.getLogger("SecretsmanagementOperator")
 logger.setLevel(int(logging_level))
-logger.info(f"Logging set to %s XXX", logging_level)
+logger.info(f"Logging set to %s XXXYYY", logging_level)
 logger.debug(f"debug logging active")
 
 SOURCE_DATE_EPOCH = os.getenv("SOURCE_DATE_EPOCH")
